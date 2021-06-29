@@ -1,0 +1,332 @@
+footer{
+  width: 100%;
+  float:left;
+  height: 40px;
+  background-color:rebeccapurple;
+  margin: 10px;
+
+  }
+footer p{
+  color: green;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: deepskyblue;
+  font-family: Arial, Helvetica, sans-serif;
+padding: 23px;
+
+
+}
+label{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+margin-top: 35px;
+ height: 70px;
+background-color:black;
+}
+
+ nav ul li{
+margin-left: 20px;
+
+}
+
+nav ul li a{
+float: left;
+color:rgb(175, 231, 21);
+ font-size: 24px;
+ text-decoration: none;
+ margin-left: 22px;
+ margin-top: 20px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+nav ul li a:hover{
+  color: darkgoldenrod;
+  } 
+section{
+  float: left;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+section h1{
+
+text-align: center;
+font-size: 24px;
+}
+
+table{
+width: 80%;
+margin: auto;
+}
+/* Clases generales de sitio */
+.alert-success{
+  color: greenyellow;
+  display: block;
+  padding: 3px;
+  background-color: darkolivegreen;
+  margin-top: 4px;
+
+}
+
+
+/* Clases generales de sitio */
+.alert-danger{
+  color: rgb(255, 0, 0);
+  display: block;
+  padding: 3px;
+  background-color: rgb(241, 179, 179);
+  font-weight: bold;
+
+}
+
+
+/* BOTONES */
+.btn{
+width: 120px;
+height: 40px;
+border:0px;
+text-align: center;
+border-radius: 10px;
+margin-top: 10px;
+text-decoration: none;
+}
+.btn-link{
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px;
+
+}
+.btn-link:hover{
+color: darkorange;
+}
+
+.btn-success{
+  background-color: #9FBF56;
+  color: white;
+}
+.btn-success:hover{
+  background-color: #687e37;
+}
+
+
+.btn-primary,.btn-link{
+  background-color: blue;
+  color: white;
+}
+
+
+.btn-primary:hover{
+color: red;
+}
+.btn-warning{
+  background-color: goldenrod;
+  color: white;
+
+}
+.btn-warning:hover{
+  background-color: rgb(134, 19, 241);
+}
+.btn-link,.btn-primary,.btn-warning
+{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.copyright{
+font-size: 18px;
+font-style: italic;
+text-align:  center;
+margin-top: 40px;
+}
+.derecho,.izquierdo{
+float:left;
+}
+.derecho{
+width: 30%;
+}
+.enlace{
+float: left;
+margin-top: 20px;
+}
+
+
+
+
+.enlace a{
+width: auto;
+text-decoration: none;
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+vertical-align: middle;
+margin-bottom: 100%;
+}
+
+
+
+.formulario{
+  float:left;
+  width: 50%;
+  left: 50%;
+  margin-left: 25%;
+}
+.form-control{
+  float:left;
+  width: 100%;
+  height: 25px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-color: chartreuse;
+  border-radius: 5px;
+}
+
+.form-group{
+  margin-bottom: 10px;
+  
+
+}
+.izquierdo{
+width: 70%;
+}
+
+.table{
+  border:grey solid 1px;
+  border-radius: gray;
+
+
+}
+.table th{
+ font-weight: bold;
+
+}
+.table th ,td{
+  padding: 10px;
+  border-bottom: 1px solid;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table tr:hover{
+background-color: rgba(209, 160, 160, 0.733)
+} 
+.text-danger{
+color:red;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-info{
+color: darkgoldenrod;
+}
+.text-info,.text-danger{
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+}
+img{
+  width: 96%;
+  margin-right: 4px;
+}
+.texto,.video{
+
+ width: 100%;
+}
+.texto{
+  margin-top:20px; 
+margin-bottom : 20px;
+}
+.texto p{
+line-height: 25px;
+font-size: 18px;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.video{
+position: relative;
+}
+/* menu */
+#menu{
+margin-top: 50px;
+margin-left: 20px;
+margin: auto;
+}
+
+#menu ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+ 
+ /* items del menu */
+ 
+ #menu ul li {
+background-color: rgba(19, 13, 13, 0.733);
+ }
+ 
+/* enlaces del menu */
+ 
+#menu ul a {
+display:block;
+color: rgb(70, 248, 16);
+text-decoration:none;
+font-weight:400;
+font-size:18px;
+padding:10px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing:1px;
+}
+ 
+ /* items del menu */
+ 
+#menu ul li {
+position:relative;
+float:left;
+margin:0;
+padding:0;
+ }
+ 
+ /* efecto al pasar el ratón por los items del menu */
+ 
+#menu ul li a:hover {
+  color:#f8c08c;
+ }
+ /* menu desplegable */
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:rgb(0, 0, 0);
+  padding:0;
+ }
+ 
+ /* items del menu desplegable */
+ 
+#menu ul ul li {
+float:none;
+width:220px
+ }
+ 
+ /* enlaces de los items del menu desplegable */
+ 
+#menu ul ul a {
+line-height:120%;
+padding:10px 15px;
+ }
+ 
+ /* items del menu desplegable al pasar el ratón */
+ 
+ #menu ul li:hover > ul{
+  display:block;
+}
+
+
+
+
+
+
